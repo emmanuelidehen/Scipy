@@ -9,6 +9,7 @@ Created on Sun Sep 20 22:33:05 2020
 import numpy as np 
 from scipy import sparse
 import pandas as pd 
+from scipy import display
 
 """ 
 converting a numpy array to csr matrix format 
