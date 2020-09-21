@@ -32,3 +32,30 @@ display(data_frame)
 print("===========  My Query  =============")
 
 display(data_frame[data_frame.Age < 40])
+"""
+output:
+    
+    
+
+
+runfile('/Users/emmanuelidehen/OneDrive - Mississippi Valley State University/Python files/scipy.py', wdir='/Users/emmanuelidehen/OneDrive - Mississippi Valley State University/Python files')
+[[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]
+ [0. 0. 0. 1.]]
+======== CSR_Matrix format =============
+  (0, 0)	1.0
+  (1, 1)	1.0
+  (2, 2)	1.0
+  (3, 3)	1.0
+This next space addreses the pandans library 
+          Name  Age     Major
+0     emmanuel   20   Machine
+1       idehen   30  Learning
+2  Osagumwenro   40       101
+===========  My Query  =============
+       Name  Age     Major
+0  emmanuel   20   Machine
+1    idehen   30  Learning
+
+"""
